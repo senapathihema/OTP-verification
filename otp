@@ -1,0 +1,8 @@
+import random
+a=random.randint(100000,999999)
+print(a)
+otp=int(input("enter otp"))
+if(otp==a):
+    print("verified")
+else:
+    print("verification failed")
